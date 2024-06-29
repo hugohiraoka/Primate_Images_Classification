@@ -1,1 +1,1 @@
-[Render htm version : Classification of Images of Primates](https://htmlpreview.github.io/?https://github.com/hugohiraoka/Primate_Images_Classification/blob/main/html/Classifying_Images_of_Primates_Species.html)
+[Render htm version : Classification of Images of Primates](https://htmlpreview.github.io/?https://github.com/hugohiraoka/Primate_Images_Classification/blob/main/html/Classifying_Images_of_Primates.html)

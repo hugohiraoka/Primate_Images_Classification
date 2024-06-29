@@ -1,0 +1,29 @@
+Dog images Classification by Breeds, https://github.com/hugohiraoka/Dog_images_Classification_by_Breeds
+Plant Seedlings Images Classification, https://github.com/hugohiraoka/Plant_Seedlings_Images_Classification
+Breast Cancer Image Classification, https://github.com/hugohiraoka/Breast_Cancer_Images_Classification
+Classifying CIFAR-10 Images, https://github.com/hugohiraoka/Classifying_CIFAR_images
+SPAM Email Classification using BERT, https://github.com/hugohiraoka/Spam_Email_Classification_Using_BERT
+Diabetes Prediction, https://github.com/hugohiraoka/Diabetes_Prediction
+Covid19 Hospitalizations Prediction, https://github.com/hugohiraoka/Covid19_ICU_Hospitalizations_Prediction
+Pituitary Tumor Classification, https://github.com/hugohiraoka/Pituitary_Brain_Tumor_Classification
+Bank Customer Churn Prediction, https://github.com/hugohiraoka/Bank_Customer_Churn_Prediction
+Credit Card Customer Churn Prediction, https://github.com/hugohiraoka/Credit_Card_Customer_Churn_Prediction
+Personal Loan Customer Prediction, https://github.com/hugohiraoka/Personal_Loan_Campaign_Customer_Prediction
+Credit Card Customer Segmentation, https://github.com/hugohiraoka/Credit_Card_Customer_Segmentation
+Travel Package Purchase Prediction, https://github.com/hugohiraoka/Travel_Package_Purchase_Prediction
+Predicting Sales with Multiple Linear Regression, https://github.com/hugohiraoka/Predicting_Sales_with_Multiple_Linear_Regression
+Stock Price Prediction using LSTM/RN, https://github.com/hugohiraoka/Stock_Price_Prediction
+Airline Tweets Sentiment Analysis, https://github.com/hugohiraoka/Airline_Tweets_Sentiment_Analysis
+World Temperature Analysis with PowerBi and DAX, https://github.com/hugohiraoka/WorldCities_GroundTemperature_Analysis_using_PowerBI
+World Temperature Analysis with Tableau, https://github.com/hugohiraoka/WorldCities_GroundTemperature_Analysis_using_Tableau
+Walkman App using Python, https://github.com/hugohiraoka/Walkman
+Slot machine Engine using Java and JavaFX, https://github.com/hugohiraoka/SlotMachine2
+Gun Violence Victims Classification, https://github.com/hugohiraoka/Gun_Violence_Classification
+Android App: Address Book using SQLite, https://github.com/hugohiraoka/Android_App_AddressBook
+Travel Agency Webpage with PHP and SQL, https://github.com/hugohiraoka/Moko_Interstellar_Travel_Agency
+Employee Reimbursement Calculator using C++, https://github.com/hugohiraoka/Employee-Reimbursement-Calculator
+Used Car Price Prediction, https://github.com/hugohiraoka/Used_Cars_Price_Prediction
+Product Classification by Customer Types, https://github.com/hugohiraoka/Product_Classification_by_Customer_Type
+Tracking Vessels App, https://github.com/hugohiraoka/Tracking_vessels_app
+Vector Drawings of Devices, https://github.com/hugohiraoka/Drawings_Vectors_Devices
+App Guess A Number, https://github.com/hugohiraoka/Game_App_Guess_A_Number

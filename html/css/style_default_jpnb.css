@@ -1,0 +1,268 @@
+/*Hugo Hiraoka css styling imitating a github page */
+
+/* General body styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+ul, ui {
+  margin: 0;
+  padding: 0;
+}
+
+/* Top navigation bar styling */
+.topnav {
+    background-color: #f6f8fa;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    border-bottom: 1px solid #ccbfb9;
+}
+
+
+.topnav .menu,
+.topnav .linkedin-logo {
+    cursor: pointer;
+}
+
+.topnav .menu {
+  margin-right: 15px;
+}
+
+.topnav .readme-logo {
+  margin-right:10px;
+}
+
+.topnav .linkedin-logo {
+    margin-left: auto;
+
+}
+
+.topnav .text-link {
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    margin-right: 5px;
+    transition: color 0.3s;
+}
+
+.topnav .text-link:hover {
+    color: #0366d6;
+}
+
+.topnav .separator {
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+/* Content area styling */
+.content {
+    padding: 20px;
+}
+
+/* Side navigation menu styling */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: width 0.5s;
+    padding-top: 60px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.sidenav .top-row {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.sidenav .sidenav-github {
+    order: 1;
+    width: 40px;
+    height: 40px;
+    margin-left:18px;
+}
+
+.sidenav .closebtn {
+    order: 2;
+}
+
+.sidenav .menu-opt1-group,
+.sidenav .menu-opt2-group,
+.sidenav .menu-opt3-group,
+.sidenav .menu-opt4-group,
+.sidenav .menu-web-group,
+.sidenav .menu-opt5-group,
+.sidenav .menu-kaggle-group, {
+    padding-left:24px;
+    margin-top: 0;
+}
+
+.sidenav .menu-opt1-group {
+    margin-top: 20px !important;
+}
+
+.sidenav .menu-opt1,
+.sidenav .menu-opt2,
+.sidenav .menu-opt3,
+.sidenav .menu-opt4,
+.sidenav .menu-opt5,
+.sidenav .menu-web,
+.sidenav .menu-kaggle,
+.sidenav .repositories-list li {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #717982;
+    font-size: 16px;
+    padding: 7px 20px;
+    transition: background-color 0.3s;
+    margin-left: 22px;
+    margin-right: 10px;
+    border-radius: 10px;
+    line-height: 16px;
+}
+
+.sidenav .menu-opt1:hover,
+.sidenav .menu-opt2:hover,
+.sidenav .menu-opt3:hover,
+.sidenav .menu-opt4:hover,
+.sidenav .menu-web:hover,
+.sidenav .menu-kaggle:hover,
+.sidenav .repositories-list li {
+    background-color: #f6f7f8;
+}
+
+.sidenav .menu-opt1-logo,
+.sidenav .menu-opt2-logo,
+.sidenav .menu-opt3-logo,
+.sidenav .menu-opt4-logo,
+.sidenav .menu-web-logo,
+.sidenav .kaggle-profile-logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    align-items = center;
+}
+
+.sidenav .menu-opt1-txt,
+.sidenav .menu-opt2-txt,
+.sidenav .menu-opt3-txt,
+.sidenav .menu-opt4-txt,
+.sidenav .menu-web-txt {
+    font-size: 16px;
+    align-items = center;
+}
+
+.sidenav .kaggle-brand-logo
+{
+  margin-left: 5px;
+  padding-left: 10px;
+}
+
+.sidenav .menu-opt5-group
+{
+  margin-bottom: 10px;
+}
+
+.sidenav .menu-opt5
+{
+  cursor: none;
+}
+
+.sidenav .menu-repository-txt {
+  margin-left: 0px;
+  font-size: 16px;
+}
+
+/* Scroll to top button styling */
+.scroll-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #0366d6;
+    color: white;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: opacity 0.3s;
+}
+
+.scroll-to-top:hover {
+    opacity: 0.8;
+}
+
+/* Divider line between menu options */
+.menu-divider {
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+}
+
+/* Hover effect for list items */
+.hovered {
+    background-color: #f6f7f8;
+    color: #333;
+}
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 1500;
+    top: 125%; /* Position below the icon */
+    left: 50%;
+    transform: translateX(-50%); /* Center the tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+    white-space: nowrap; /* Prevent line breaks */
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: -5px; /* Position at the bottom of the tooltip */
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+/* Show the tooltip text when hovering over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
